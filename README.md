@@ -8,24 +8,24 @@ Dependencies:
       libpthread
 
 Public Headers:
-       Job.h
+       Job.h,
        Threadpool.h
 
 Steps to build and install:
-    mkdir <builddir>
-    cd <builddir>
-    cmake <path to source ThreadPool> -DCMAKE_BUILD_TYPE=<Release or Debug>
-    make
+    mkdir <builddir>, 
+    cd <builddir>, 
+    cmake <path to source ThreadPool> -DCMAKE_BUILD_TYPE=<Release or Debug>, 
+    make, 
     make install
     
     The library will be installed in /usr/local/lib/threadpool
     The headers will be installed in /sr/local/include/threadpool
 
 Steps to make RPM:
-    mkdir <builddir>
-    cd <builddir>
-    cmake <path to source ThreadPool> -DCMAKE_BUILD_TYPE=<Release or Debug>
-    make   
+    mkdir <builddir>, 
+    cd <builddir>, 
+    cmake <path to source ThreadPool> -DCMAKE_BUILD_TYPE=<Release or Debug>, 
+    make  , 
     make package
     
     This will build the RPM libthreadpool-1.0.0-1.x86_64.rpm
