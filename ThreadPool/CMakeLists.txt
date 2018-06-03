@@ -39,7 +39,7 @@ set_target_properties(threadpool PROPERTIES PUBLIC_HEADER
                      "${HEADERS}/Job.h;${HEADERS}/Threadpool.h;${HEADERS}/Mutex.h;${HEADERS}/Thread.h;${HEADERS}/Waitsignal.h"
                       )
 
-install(TARGETS threadpool DESTINATION /usr/local/include/threadpool
+install(TARGETS threadpool DESTINATION /usr/local/lib/threadpool
         PUBLIC_HEADER DESTINATION /usr/local/include/threadpool)
 
 
