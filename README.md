@@ -12,9 +12,9 @@ Public Headers:
        Threadpool.h
 
 Steps to build and install:
-    mkdir <builddir>, 
-    cd <builddir>, 
-    cmake <path to source ThreadPool> -DCMAKE_BUILD_TYPE=<Release or Debug>, 
+    mkdir builddir, 
+    cd builddir, 
+    cmake path-to-source-ThreadPool -DCMAKE_BUILD_TYPE=Release or Debug, 
     make, 
     make install
     
@@ -22,9 +22,9 @@ Steps to build and install:
     The headers will be installed in /sr/local/include/threadpool
 
 Steps to make RPM:
-    mkdir <builddir>, 
-    cd <builddir>, 
-    cmake <path to source ThreadPool> -DCMAKE_BUILD_TYPE=<Release or Debug>, 
+    mkdir builddir, 
+    cd builddir, 
+    cmake path-to-source-ThreadPool -DCMAKE_BUILD_TYPE=Release or Debug, 
     make  , 
     make package
     
