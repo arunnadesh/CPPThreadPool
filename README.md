@@ -64,4 +64,3 @@ Sample Application:
 
 
 
-It would be really appreciated if you send in your feedbacks, comments, suggestions and thanyou notes to arunnadesh@gmail.com 
